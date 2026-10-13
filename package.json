@@ -1,7 +1,7 @@
 {
-  "name": "cs-312-miniproject-1",
+  "name": "cs-312-miniproject-3",
   "version": "1.0.0",
-  "description": "In-memory blog web application built with Node.js, Express, and EJS.",
+  "description": "PostgreSQL-backed Blog web app with User Authentication.",
   "main": "app.js",
   "type": "module",
   "scripts": {
@@ -11,6 +11,8 @@
   "dependencies": {
     "ejs": "^3.1.9",
     "express": "^4.19.2",
-    "method-override": "^3.0.0"
+    "express-session": "^1.19.0",
+    "method-override": "^3.0.0",
+    "pg": "^8.23.1"
   }
 }
