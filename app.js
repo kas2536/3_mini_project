@@ -179,7 +179,7 @@ app.get("/posts/:id/edit", requireAuth, async (req, res) => {
     res.render("edit", { post });
   } catch (err) {
     console.error(err);
-    res.redirect("/");
+    res.redirect("/");  
   }
 });
 

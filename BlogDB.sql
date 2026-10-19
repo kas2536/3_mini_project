@@ -1,14 +1,14 @@
 DROP TABLE IF EXISTS blogs;
 DROP TABLE IF EXISTS users;
 
--- 1. Create Users Table
+-- Create Users Table
 CREATE TABLE users (
     user_id VARCHAR(255) PRIMARY KEY,
     password VARCHAR(255) NOT NULL,
     name VARCHAR(255) NOT NULL
 );
 
--- 2. Create Blogs Table
+-- Create Blogs Table
 CREATE TABLE blogs (
     blog_id SERIAL PRIMARY KEY,
     creator_name VARCHAR(255) NOT NULL,
